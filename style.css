@@ -1,0 +1,154 @@
+body{
+    background-color: lightgray;
+        
+}
+
+.formulario{
+    background-color: white;
+    width: 500px;
+    height: 420px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: -3px 10px 16px 12px #999; 
+
+}
+
+.formulario .header-form{
+    width: 500px;
+    display: inline-block;
+}
+
+.formulario .header-form h1{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.formulario .header-form p{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin: 0%;
+    font-size: 12px;
+    color: rgb(66, 65, 65);
+    
+}
+
+.formulario .body-form{
+    width: 500px;
+    height: 140px;
+    display: flex;
+    
+}
+
+.formulario .body-form input{
+    width: 193px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 2px;
+    border: 0;
+    height: 25px;
+    
+}
+
+
+.formulario .body-form .label-input{
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+
+.formulario .body-form input{
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.formulario .body-form input:focus{
+    outline: none;
+}
+
+.formulario .message-form{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin: 0%;
+    
+}
+
+.formulario .message-form .label-input{
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 90px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.formulario .message-form textarea{
+    width: 440px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 5px;
+    border: 0;
+    height: 47px;
+    resize: none;
+}
+
+.formulario .message-form textarea:focus{
+    outline: none;
+}
+
+
+.formulario .message-form textarea{
+    font-size: 11px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    
+}
+
+.formulario .footer-form{
+    width: 500px;
+    height: 83px;
+    display: flex;
+    border-radius: 20px;
+    margin: 0%;
+       
+}
+
+.formulario .footer-form button{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: rgb(218, 42, 71);
+    border: 0px;
+    color: pink;
+}
+
+.formulario .footer-form button:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
